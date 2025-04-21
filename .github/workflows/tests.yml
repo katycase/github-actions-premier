@@ -1,5 +1,7 @@
 name : Test Py
-on : [Push]
+on:
+  push:
+
 jobs : 
   test_pythonb:
     runs-on : ubuntu-latest

@@ -1,7 +1,8 @@
 name: hello world 
 
 
-on: [push]
+on:
+  push:
 
 jobs:
   say_hello:

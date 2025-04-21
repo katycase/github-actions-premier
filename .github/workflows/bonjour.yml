@@ -1,12 +1,11 @@
 name: hello world 
 
 
-on: 
-  push:
+on: [push]
 
 jobs:
   say_hello:
-    runs-on : ubuntu_latest
+    runs-on : ubuntu-latest
     steps :   
       - name : Print Hello
         run : echo "Bonjour je suis la kiderni boumezzwii "

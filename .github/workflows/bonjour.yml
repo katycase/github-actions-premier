@@ -6,7 +6,7 @@ on:
 
 jobs:
   say_hello:
-    runs_on : unbuntu_latest
+    runs-on : unbuntu_latest
     steps :   
       - name : Print Hello
         run : echo "Bonjour je suis la kiderni boumezzwii "
